@@ -1,0 +1,678 @@
+[2023-06-02 21:32:12] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-02 21:32:12] [ ERROR] [PacienteDAOH2:199] Column "id_turno" not found [42122-214]
+[2023-06-02 21:32:12] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-02 21:32:12] [ ERROR] [PacienteDAOH2:49] Column "ID_TURNO" not found; SQL statement:
+INSERT INTO PACIENTES (APELLIDO, NOMBRE, DNI, FECHA_INGRESO, ID_DOMICILIO, ID_TURNO) VALUES(?,?,?,?,?,?) [42122-214]
+[2023-06-02 21:32:12] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: null
+[2023-06-02 21:32:12] [ ERROR] [PacienteDAOH2:147] Cannot invoke "com.backend.entity.Paciente.getDomicilio()" because "unPaciente" is null
+[2023-06-02 21:32:12] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: null
+[2023-06-02 21:32:12] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-02 21:32:12] [ ERROR] [PacienteDAOH2:241] Column "id_turno" not found [42122-214]
+[2023-06-02 21:32:12] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Mitre 1100 Quilmes Buenos Aires}
+[2023-06-02 21:32:12] [ ERROR] [TurnoDAOH2:40] Table "TURNOS" not found; SQL statement:
+INSERT INTO TURNOS (ID_ODONTOLOGO, TURNO) VALUES(?,?) [42102-214]
+[2023-06-02 21:32:12] [ INFO ] [PacienteDAOH2:98] Paciente modificado: PACIENTE {id:0 - Centeno Jose - DNI: 10.000.222 - Fecha ingreso: 2023-05-02 - Domicilio: {Mitre 1100 Quilmes Buenos Aires} - Turno:TURNO {id:0 - Odontologo: Manula Maria - Turno: 2023-10-14}}
+[2023-06-02 21:32:12] [ INFO ] [OdontologoDaoH2:202] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 7 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}]
+[2023-06-02 21:32:12] [ INFO ] [OdontologoDaoH2:37] Odontologo guardado: ODONTOLOGO {id: 9 - Tierra Claudia - Matricula: 90876}
+[2023-06-02 21:32:12] [ INFO ] [OdontologoDaoH2:81] Odontologo modificado: ODONTOLOGO {id: 9 - Cielo Claudia - Matricula: 90876}
+[2023-06-02 21:32:12] [ INFO ] [OdontologoDaoH2:37] Odontologo guardado: ODONTOLOGO {id: 10 - Rivetti Claudia - Matricula: 90876}
+[2023-06-02 21:32:12] [ INFO ] [OdontologoDaoH2:121] Se elimino al odontologo con id 1
+[2023-06-02 21:32:12] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 21:32:12] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-02 21:33:36] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-02 21:33:36] [ ERROR] [PacienteDAOH2:199] Column "id_turno" not found [42122-214]
+[2023-06-02 21:33:36] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-02 21:33:36] [ ERROR] [PacienteDAOH2:49] Column "ID_TURNO" not found; SQL statement:
+INSERT INTO PACIENTES (APELLIDO, NOMBRE, DNI, FECHA_INGRESO, ID_DOMICILIO, ID_TURNO) VALUES(?,?,?,?,?,?) [42122-214]
+[2023-06-02 21:33:36] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: null
+[2023-06-02 21:33:36] [ ERROR] [PacienteDAOH2:147] Cannot invoke "com.backend.entity.Paciente.getDomicilio()" because "unPaciente" is null
+[2023-06-02 21:33:36] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: null
+[2023-06-02 21:33:36] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-02 21:33:36] [ ERROR] [PacienteDAOH2:241] Column "id_turno" not found [42122-214]
+[2023-06-02 21:33:36] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Mitre 1100 Quilmes Buenos Aires}
+[2023-06-02 21:33:36] [ ERROR] [TurnoDAOH2:40] Table "TURNOS" not found; SQL statement:
+INSERT INTO TURNOS (ID_ODONTOLOGO, TURNO) VALUES(?,?) [42102-214]
+[2023-06-02 21:33:36] [ INFO ] [PacienteDAOH2:98] Paciente modificado: PACIENTE {id:0 - Centeno Jose - DNI: 10.000.222 - Fecha ingreso: 2023-05-02 - Domicilio: {Mitre 1100 Quilmes Buenos Aires} - Turno:TURNO {id:0 - Odontologo: Manula Maria - Turno: 2023-10-14}}
+[2023-06-02 21:37:03] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-02 21:37:03] [ INFO ] [PacienteDAOH2:46] Paciente guardado: PACIENTE {id:3 - Continini Alfredo - DNI: 12.000.345 - Fecha ingreso: 2023-05-02 - Domicilio: {Av. Santa Fe 334 CABA Buenos Aires} - Turno:TURNO {id:0 - Odontologo: Estevez Allan - Turno: 2023-10-24}}
+[2023-06-02 21:37:21] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Mitre 1100 Quilmes Buenos Aires}
+[2023-06-02 21:37:21] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:3 - Odontologo: Manula Maria - Turno: 2023-10-14}
+[2023-06-02 21:37:22] [ INFO ] [PacienteDAOH2:98] Paciente modificado: PACIENTE {id:0 - Centeno Jose - DNI: 10.000.222 - Fecha ingreso: 2023-05-02 - Domicilio: {Mitre 1100 Quilmes Buenos Aires} - Turno:TURNO {id:3 - Odontologo: Manula Maria - Turno: 2023-10-14}}
+[2023-06-02 21:38:01] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-02 21:38:01] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}
+[2023-06-02 21:38:01] [ INFO ] [TurnoDAOH2:165] Turno encontrado: TURNO {id:2 - Odontologo: Porello Analia - Turno: 2023-05-20}
+[2023-06-02 21:38:01] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur} - Turno:TURNO {id:2 - Odontologo: Porello Analia - Turno: 2023-05-20}}
+[2023-06-02 21:38:01] [ INFO ] [DomicilioDAOH2:124] Se elimino el domicilio con id 2
+[2023-06-02 21:38:01] [ INFO ] [TurnoDAOH2:121] Se elimino el turno con id: 2
+[2023-06-02 21:38:01] [ INFO ] [PacienteDAOH2:144] Se elimino el paciente con id 2
+[2023-06-02 21:38:01] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: null
+[2023-06-02 21:38:36] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-02 21:38:36] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}
+[2023-06-02 21:38:36] [ INFO ] [TurnoDAOH2:165] Turno encontrado: TURNO {id:1 - Odontologo: Estevez Allan - Turno: 2023-04-20}
+[2023-06-02 21:38:36] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts} - Turno:TURNO {id:1 - Odontologo: Estevez Allan - Turno: 2023-04-20}}
+[2023-06-02 21:38:54] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-02 21:38:54] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}
+[2023-06-02 21:38:54] [ INFO ] [TurnoDAOH2:165] Turno encontrado: TURNO {id:1 - Odontologo: Estevez Allan - Turno: 2023-04-20}
+[2023-06-02 21:38:54] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-02 21:38:54] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 21:38:54] [ INFO ] [PacienteDAOH2:238] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts} - Turno:TURNO {id:1 - Odontologo: Estevez Allan - Turno: 2023-04-20}}, PACIENTE {id:3 - Continini Alfredo - DNI: 12.000.345 - Fecha ingreso: 2023-05-02 - Domicilio: {Av. Santa Fe 334 CABA Buenos Aires} - Turno:null}]
+[2023-06-02 21:39:21] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-02 21:39:22] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}
+[2023-06-02 21:39:22] [ INFO ] [TurnoDAOH2:165] Turno encontrado: TURNO {id:1 - Odontologo: Estevez Allan - Turno: 2023-04-20}
+[2023-06-02 21:39:22] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-02 21:39:22] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 21:39:22] [ INFO ] [PacienteDAOH2:238] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts} - Turno:TURNO {id:1 - Odontologo: Estevez Allan - Turno: 2023-04-20}}, PACIENTE {id:3 - Continini Alfredo - DNI: 12.000.345 - Fecha ingreso: 2023-05-02 - Domicilio: {Av. Santa Fe 334 CABA Buenos Aires} - Turno:null}]
+[2023-06-02 21:39:34] [ INFO ] [OdontologoDaoH2:37] Odontologo guardado: ODONTOLOGO {id: 3 - Rivetti Claudia - Matricula: 90876}
+[2023-06-02 21:39:52] [ INFO ] [OdontologoDaoH2:37] Odontologo guardado: ODONTOLOGO {id: 4 - Tierra Claudia - Matricula: 90876}
+[2023-06-02 21:39:52] [ INFO ] [OdontologoDaoH2:81] Odontologo modificado: ODONTOLOGO {id: 4 - Cielo Claudia - Matricula: 90876}
+[2023-06-02 21:39:57] [ INFO ] [OdontologoDaoH2:121] Se elimino al odontologo con id 1
+[2023-06-02 21:39:57] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 21:40:03] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: ODONTOLOGO {id: 3 - Rivetti Claudia - Matricula: 90876}
+[2023-06-02 21:40:07] [ INFO ] [OdontologoDaoH2:202] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Cielo Claudia - Matricula: 90876}]
+[2023-06-02 21:48:41] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:4 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:05:17] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:5 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:05:18] [ INFO ] [TurnoDAOH2:80] Turno modificado: TURNO {id:5 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:06:07] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:6 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:06:07] [ INFO ] [TurnoDAOH2:80] Turno modificado: TURNO {id:6 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:06:22] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:7 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:06:22] [ INFO ] [TurnoDAOH2:80] Turno modificado: TURNO {id:7 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:10:17] [ INFO ] [TurnoDAOH2:121] Se elimino el turno con id: 5
+[2023-06-02 22:10:17] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 22:11:39] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:11:39] [ ERROR] [TurnoDAOH2:168] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:11:49] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:11:49] [ ERROR] [TurnoDAOH2:168] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:12:09] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:12:09] [ ERROR] [TurnoDAOH2:168] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:12:20] [ INFO ] [TurnoDAOH2:121] Se elimino el turno con id: 1
+[2023-06-02 22:12:20] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 22:12:37] [ INFO ] [TurnoDAOH2:121] Se elimino el turno con id: 5
+[2023-06-02 22:12:37] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 22:12:39] [ INFO ] [TurnoDAOH2:121] Se elimino el turno con id: 5
+[2023-06-02 22:12:39] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 22:12:45] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:12:45] [ ERROR] [TurnoDAOH2:168] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:12:54] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 22:13:16] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:16] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:16] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:16] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:16] [ ERROR] [TurnoDAOH2:202] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:13:34] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:8 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:13:34] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:34] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:34] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:34] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:34] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:13:34] [ ERROR] [TurnoDAOH2:202] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:13:34] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 22:13:34] [ INFO ] [TurnoDAOH2:121] Se elimino el turno con id: 5
+[2023-06-02 22:13:34] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-02 22:13:34] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:9 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:13:34] [ INFO ] [TurnoDAOH2:80] Turno modificado: TURNO {id:9 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-02 22:17:27] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:17:27] [ ERROR] [TurnoDAOH2:168] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:17:37] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:17:37] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:17:37] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:17:37] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:17:37] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:17:37] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:17:37] [ ERROR] [TurnoDAOH2:202] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:18:20] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:18:20] [ ERROR] [TurnoDAOH2:168] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-02 22:18:59] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:18:59] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:18:59] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:18:59] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:18:59] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:18:59] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-02 22:18:59] [ ERROR] [TurnoDAOH2:202] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-03 17:10:33] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:10:33] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:10:33] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:10:33] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:10:33] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:10:33] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:10:33] [ ERROR] [TurnoDAOH2:202] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-03 17:11:28] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:11:28] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:11:28] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:11:28] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:11:28] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:11:28] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:11:28] [ ERROR] [TurnoDAOH2:202] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-03 17:12:24] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-03 17:12:24] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts} - Turno:null}
+[2023-06-03 17:12:24] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-03 17:12:24] [ INFO ] [PacienteDAOH2:46] Paciente guardado: PACIENTE {id:4 - Continini Alfredo - DNI: 12.000.345 - Fecha ingreso: 2023-05-02 - Domicilio: {Av. Santa Fe 334 CABA Buenos Aires} - Turno:TURNO {id:0 - Odontologo: Estevez Allan - Turno: 2023-10-24}}
+[2023-06-03 17:12:24] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: null
+[2023-06-03 17:12:24] [ ERROR] [PacienteDAOH2:147] Cannot invoke "com.backend.entity.Paciente.getDomicilio()" because "unPaciente" is null
+[2023-06-03 17:12:24] [ INFO ] [PacienteDAOH2:196] Paciente encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-03 17:12:24] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-03 17:12:24] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [DomicilioDAOH2:166] Domicilio encontrado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-03 17:12:24] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [PacienteDAOH2:238] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts} - Turno:null}, PACIENTE {id:3 - Continini Alfredo - DNI: 12.000.345 - Fecha ingreso: 2023-05-02 - Domicilio: {Av. Santa Fe 334 CABA Buenos Aires} - Turno:null}, PACIENTE {id:4 - Continini Alfredo - DNI: 12.000.345 - Fecha ingreso: 2023-05-02 - Domicilio: {Av. Santa Fe 334 CABA Buenos Aires} - Turno:null}]
+[2023-06-03 17:12:24] [ INFO ] [DomicilioDAOH2:37] Domicilio guardado: {Mitre 1100 Quilmes Buenos Aires}
+[2023-06-03 17:12:24] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:10 - Odontologo: Manula Maria - Turno: 2023-10-14}
+[2023-06-03 17:12:24] [ INFO ] [PacienteDAOH2:98] Paciente modificado: PACIENTE {id:0 - Centeno Jose - DNI: 10.000.222 - Fecha ingreso: 2023-05-02 - Domicilio: {Mitre 1100 Quilmes Buenos Aires} - Turno:TURNO {id:10 - Odontologo: Manula Maria - Turno: 2023-10-14}}
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:202] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Cielo Claudia - Matricula: 90876}]
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:37] Odontologo guardado: ODONTOLOGO {id: 5 - Tierra Claudia - Matricula: 90876}
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:81] Odontologo modificado: ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:37] Odontologo guardado: ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:121] Se elimino al odontologo con id 1
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: ODONTOLOGO {id: 3 - Rivetti Claudia - Matricula: 90876}
+[2023-06-03 17:12:24] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:11 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ ERROR] [TurnoDAOH2:202] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-03 17:12:24] [ INFO ] [OdontologoDaoH2:166] Odontologo encontrado: null
+[2023-06-03 17:12:24] [ ERROR] [TurnoDAOH2:168] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-03 17:12:24] [ INFO ] [TurnoDAOH2:121] Se elimino el turno con id: 5
+[2023-06-03 17:12:25] [ INFO ] [TurnoDAOH2:165] Turno encontrado: null
+[2023-06-03 17:12:25] [ INFO ] [TurnoDAOH2:37] Turno guardado: TURNO {id:12 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-03 17:12:25] [ INFO ] [TurnoDAOH2:80] Turno modificado: TURNO {id:12 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:38:45] [ INFO ] [OdontologoDaoH2:203] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-04 18:38:45] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-04 18:38:45] [ INFO ] [OdontologoDaoH2:82] Odontologo modificado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-04 18:38:45] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:38:45] [ INFO ] [OdontologoDaoH2:122] Se elimino al odontologo con id 1
+[2023-06-04 18:38:45] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:38:45] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-04 18:39:47] [ INFO ] [OdontologoDaoH2:203] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}]
+[2023-06-04 18:39:47] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado: ODONTOLOGO {id: 5 - Tierra Claudia - Matricula: 90876}
+[2023-06-04 18:39:47] [ INFO ] [OdontologoDaoH2:82] Odontologo modificado: ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}
+[2023-06-04 18:39:47] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado: ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:39:47] [ INFO ] [OdontologoDaoH2:122] Se elimino al odontologo con id 1
+[2023-06-04 18:39:47] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:39:47] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-04 18:40:05] [ INFO ] [DomicilioDAOH2:168] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-04 18:40:05] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:40:05] [ ERROR] [TurnoDAOH2:170] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:40:05] [ ERROR] [PacienteDAOH2:201] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:40:05] [ INFO ] [DomicilioDAOH2:39] Domicilio guardado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-04 18:40:05] [ INFO ] [PacienteDAOH2:48] Paciente guardado: PACIENTE {id:3 - Continini Alfredo - DNI: 12.000.345 - Fecha ingreso: 2023-05-02 - Domicilio: {Av. Santa Fe 334 CABA Buenos Aires} - Turno:TURNO {id:0 - Odontologo: Estevez Allan - Turno: 2023-10-24}}
+[2023-06-04 18:40:05] [ INFO ] [DomicilioDAOH2:168] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-04 18:40:05] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}
+[2023-06-04 18:40:05] [ INFO ] [TurnoDAOH2:167] Turno encontrado: TURNO {id:2 - Odontologo: Porello Analia - Turno: 2023-05-20}
+[2023-06-04 18:40:05] [ INFO ] [PacienteDAOH2:198] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur} - Turno:TURNO {id:2 - Odontologo: Porello Analia - Turno: 2023-05-20}}
+[2023-06-04 18:40:05] [ INFO ] [DomicilioDAOH2:126] Se elimino el domicilio con id 2
+[2023-06-04 18:40:05] [ INFO ] [TurnoDAOH2:123] Se elimino el turno con id: 2
+[2023-06-04 18:40:05] [ INFO ] [PacienteDAOH2:146] Se elimino el paciente con id 2
+[2023-06-04 18:40:05] [ INFO ] [PacienteDAOH2:198] Paciente encontrado: null
+[2023-06-04 18:40:05] [ INFO ] [DomicilioDAOH2:168] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-04 18:40:05] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:40:05] [ ERROR] [TurnoDAOH2:170] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:40:05] [ INFO ] [DomicilioDAOH2:168] Domicilio encontrado: {Av. Santa Fe 334 CABA Buenos Aires}
+[2023-06-04 18:40:05] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:40:05] [ ERROR] [PacienteDAOH2:243] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:40:06] [ INFO ] [DomicilioDAOH2:39] Domicilio guardado: {Mitre 1100 Quilmes Buenos Aires}
+[2023-06-04 18:40:06] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:3 - Odontologo: Manula Maria - Turno: 2023-10-14}
+[2023-06-04 18:40:06] [ INFO ] [PacienteDAOH2:100] Paciente modificado: PACIENTE {id:0 - Centeno Jose - DNI: 10.000.222 - Fecha ingreso: 2023-05-02 - Domicilio: {Mitre 1100 Quilmes Buenos Aires} - Turno:TURNO {id:3 - Odontologo: Manula Maria - Turno: 2023-10-14}}
+[2023-06-04 18:40:57] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:4 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:40:57] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:40:57] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:40:57] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:40:57] [ ERROR] [TurnoDAOH2:204] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:40:57] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:40:57] [ INFO ] [TurnoDAOH2:123] Se elimino el turno con id: 5
+[2023-06-04 18:40:57] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:40:58] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:5 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:40:58] [ INFO ] [TurnoDAOH2:82] Turno modificado: TURNO {id:5 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:43:22] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:6 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:43:22] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:22] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:22] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:22] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:22] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:22] [ ERROR] [TurnoDAOH2:204] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:43:22] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:43:22] [ INFO ] [TurnoDAOH2:123] Se elimino el turno con id: 5
+[2023-06-04 18:43:22] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:43:23] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:7 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:43:23] [ INFO ] [TurnoDAOH2:82] Turno modificado: TURNO {id:7 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:203] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}]
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado: ODONTOLOGO {id: 7 - Tierra Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:82] Odontologo modificado: ODONTOLOGO {id: 7 - Cielo Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:122] Se elimino al odontologo con id 1
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:8 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ ERROR] [TurnoDAOH2:204] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:43:40] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:43:40] [ INFO ] [TurnoDAOH2:167] Turno encontrado: TURNO {id:8 - Odontologo: Rivetti Claudia - Turno: 2023-06-02}
+[2023-06-04 18:43:40] [ INFO ] [TurnoDAOH2:123] Se elimino el turno con id: 5
+[2023-06-04 18:43:40] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:43:40] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:9 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:43:40] [ INFO ] [TurnoDAOH2:82] Turno modificado: TURNO {id:9 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:49:51] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:10 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:49:51] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:49:51] [ ERROR] [TurnoDAOH2:204] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:49:52] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:49:52] [ INFO ] [TurnoDAOH2:167] Turno encontrado: TURNO {id:8 - Odontologo: Rivetti Claudia - Turno: 2023-06-02}
+[2023-06-04 18:49:52] [ INFO ] [TurnoDAOH2:123] Se elimino el turno con id: 5
+[2023-06-04 18:49:52] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:49:52] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:11 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:49:52] [ INFO ] [TurnoDAOH2:82] Turno modificado: TURNO {id:11 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:50:11] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:12 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: null
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:50:11] [ ERROR] [TurnoDAOH2:204] Cannot invoke "com.backend.entity.Odontologo.getApellido()" because "this.odontologo" is null
+[2023-06-04 18:50:11] [ INFO ] [OdontologoDaoH2:167] Odontologo encontrado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-04 18:50:11] [ INFO ] [TurnoDAOH2:167] Turno encontrado: TURNO {id:8 - Odontologo: Rivetti Claudia - Turno: 2023-06-02}
+[2023-06-04 18:50:11] [ INFO ] [TurnoDAOH2:123] Se elimino el turno con id: 5
+[2023-06-04 18:50:11] [ INFO ] [TurnoDAOH2:167] Turno encontrado: null
+[2023-06-04 18:50:11] [ INFO ] [TurnoDAOH2:39] Turno guardado: TURNO {id:13 - Odontologo: Laport Osvaldo - Turno: 2023-06-02}
+[2023-06-04 18:50:11] [ INFO ] [TurnoDAOH2:82] Turno modificado: TURNO {id:13 - Odontologo: Gomez Osvaldo - Turno: 2023-06-02}
+[2023-06-06 21:21:27] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-06 21:21:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:21:28] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:21:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:21:28] [ INFO ] [OdontologoDaoH2:124] Se elimino al odontologo con id 1
+[2023-06-06 21:21:28] [ INFO ] [OdontologoDaoH2:169] Odontologo encontrado: null
+[2023-06-06 21:22:28] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}]
+[2023-06-06 21:22:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 5 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:22:29] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:22:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:22:29] [ INFO ] [OdontologoDaoH2:124] Se elimino al odontologo con id 1
+[2023-06-06 21:22:29] [ INFO ] [OdontologoDaoH2:169] Odontologo encontrado: null
+[2023-06-06 21:22:46] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}]
+[2023-06-06 21:22:46] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 7 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:22:46] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 7 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:22:46] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:22:46] [ INFO ] [OdontologoDaoH2:124] Se elimino al odontologo con id 1
+[2023-06-06 21:22:46] [ INFO ] [OdontologoDaoH2:169] Odontologo encontrado: null
+[2023-06-06 21:23:10] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}, ODONTOLOGO {id: 7 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 8 - Rivetti Claudia - Matricula: 90876}]
+[2023-06-06 21:23:10] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 9 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:23:10] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 9 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:23:10] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 10 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:26:40] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-06 21:26:40] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:26:40] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:26:40] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:29:52] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-06 21:29:52] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:29:52] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:29:52] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:30:39] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-06 21:30:39] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:30:39] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:30:39] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:33:40] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-06 21:33:40] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}
+[2023-06-06 21:33:40] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-06 21:33:40] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}
+[2023-06-06 21:33:40] [ INFO ] [DomicilioDaoH2:127] Se elimino el domicilio con id 2
+[2023-06-06 21:33:40] [ INFO ] [PacienteDaoH2:141] Se elimino el paciente con id 2
+[2023-06-06 21:34:09] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:34:09] [ ERROR] [PacienteDaoH2:50] Column count does not match; SQL statement:
+INSERT INTO PACIENTES (APELLIDO, NOMBRE, DNI, FECHA_INGRESO, ID_DOMICILIO) VALUES(?,?,?,?,?,?) [21002-214]
+[2023-06-06 21:34:37] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:34:37] [ ERROR] [PacienteDaoH2:50] Column count does not match; SQL statement:
+INSERT INTO PACIENTES (APELLIDO, NOMBRE, DNI, FECHA_INGRESO, ID_DOMICILIO) VALUES(?,?,?,?,?,?) [21002-214]
+[2023-06-06 21:37:55] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-06 21:37:55] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:37:55] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:37:55] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:39:26] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:39:26] [ ERROR] [PacienteDaoH2:50] Column count does not match; SQL statement:
+INSERT INTO PACIENTES (APELLIDO, NOMBRE, DNI, FECHAINGRESO, ID_DOMICILIO) VALUES(?,?,?,?,?,?) [21002-214]
+[2023-06-06 21:41:06] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: null
+[2023-06-06 21:41:18] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: null
+[2023-06-06 21:41:35] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: null
+[2023-06-06 21:41:42] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: []
+[2023-06-06 21:41:50] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:41:50] [ ERROR] [PacienteDaoH2:50] Column count does not match; SQL statement:
+INSERT INTO PACIENTES (APELLIDO, NOMBRE, DNI, FECHAINGRESO, ID_DOMICILIO) VALUES(?,?,?,?,?,?) [21002-214]
+[2023-06-06 21:42:08] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: null
+[2023-06-06 21:43:04] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}, ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}]
+[2023-06-06 21:43:04] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 5 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:43:04] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:43:04] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 6 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:44:09] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-06 21:44:09] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:44:09] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:44:09] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:44:42] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:44:42] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-06 21:44:59] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:44:59] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-06 21:46:16] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-06 21:46:16] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-06 21:46:16] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-06 21:46:16] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Rivetti Claudia - Matricula: 90876}
+[2023-06-06 21:46:29] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:46:29] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-06 21:46:55] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:46:55] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-06 21:47:08] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-06 21:47:08] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-06 21:47:08] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-06 21:47:25] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-06 21:47:25] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-06 21:47:44] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-06 21:47:44] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-06 21:47:44] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-06 21:51:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - sebedio itziar - Matricula: 123}
+[2023-06-06 21:51:45] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - sebedio itziar - Matricula: 123}]
+[2023-06-06 21:51:53] [ INFO ] [OdontologoDaoH2:169] Odontologo encontrado: ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}
+[2023-06-06 21:52:31] [ INFO ] [OdontologoDaoH2:169] Odontologo encontrado: ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}
+[2023-06-06 21:52:31] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 456}
+[2023-06-06 21:52:40] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 456}, ODONTOLOGO {id: 4 - sebedio itziar - Matricula: 123}]
+[2023-06-06 21:55:28] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-06 21:55:28] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-06 21:55:28] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-06 21:57:26] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 456}, ODONTOLOGO {id: 4 - sebedio itziar - Matricula: 123}]
+[2023-06-06 22:00:07] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-06 22:00:07] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}
+[2023-06-06 22:00:07] [ INFO ] [OdontologoDaoH2:169] Odontologo encontrado: ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}
+[2023-06-08 17:41:49] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 456}, ODONTOLOGO {id: 4 - sebedio itziar - Matricula: 123}]
+[2023-06-08 17:41:49] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 5 - Tierra Claudia - Matricula: 90876}
+[2023-06-08 17:41:49] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 5 - Cielo Claudia - Matricula: 90876}
+[2023-06-08 22:10:12] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-08 22:10:12] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-08 22:10:12] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-08 22:11:05] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-08 22:11:05] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-08 22:11:05] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-08 22:11:13] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-08 22:11:13] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-08 22:35:41] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-08 22:35:41] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Tierra Claudia - Matricula: 90876}
+[2023-06-08 22:35:41] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - Cielo Claudia - Matricula: 90876}
+[2023-06-08 23:07:31] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: null
+[2023-06-08 23:07:43] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-08 23:07:43] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-08 23:08:31] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-08 23:08:31] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-08 23:08:36] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-08 23:08:36] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-08 23:08:36] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-08 23:10:02] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-08 23:10:08] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}
+[2023-06-08 23:10:30] [ INFO ] [OdontologoDaoH2:205] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}]
+[2023-06-08 23:10:38] [ INFO ] [OdontologoDaoH2:169] Odontologo encontrado: ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}
+[2023-06-09 21:45:46] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Tierra Claudia - Matricula: 90876}
+[2023-06-09 21:45:46] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 4 - Cielo Claudia - Matricula: 90876}
+[2023-06-09 21:51:25] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 21:51:25] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 21:51:25] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 21:51:53] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 21:51:53] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 21:51:53] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 21:52:03] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 21:52:03] [ INFO ] [PacienteDaoH2:190] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}
+[2023-06-09 21:52:11] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-09 21:52:11] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-09 22:08:35] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:08:35] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:08:36] [ INFO ] [PacienteDaoH2:229] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:08:51] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-09 22:08:51] [ ERROR] [PacienteDaoH2:50] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-06-09 22:13:04] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:13:04] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:13:04] [ INFO ] [PacienteDaoH2:233] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:13:21] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {Rivadavia 1450 Bariloche Rio Negro}
+[2023-06-09 22:13:21] [ ERROR] [PacienteDaoH2:51] NULL not allowed for column "FECHAINGRESO"; SQL statement:
+INSERT INTO PACIENTES (APELLIDO, NOMBRE, DNI, FECHAINGRESO, ID_DOMICILIO) VALUES(?,?,?,?,?) [23502-214]
+[2023-06-09 22:14:03] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:14:03] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:14:03] [ INFO ] [PacienteDaoH2:233] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:17:07] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-09 22:17:12] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}
+[2023-06-09 22:17:16] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}]
+[2023-06-09 22:17:27] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - sebedio itziar - Matricula: 123}
+[2023-06-09 22:17:27] [ WARN ] [OdontologoDaoH2:83] Odontologo actualizado: ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 456}
+[2023-06-09 22:17:31] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 456}]
+[2023-06-09 22:18:38] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - sebedio itziar - Matricula: 456}
+[2023-06-09 22:18:38] [ INFO ] [OdontologoDaoH2:124] Se elimino al odontologo con id 3
+[2023-06-09 22:19:06] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-09 22:20:15] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - sebedio itziar - Matricula: 123}
+[2023-06-09 22:20:18] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 4 - sebedio itziar - Matricula: 123}]
+[2023-06-09 22:20:28] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:20:28] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:20:28] [ INFO ] [PacienteDaoH2:233] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:22:54] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:22:54] [ INFO ] [PacienteDaoH2:48] Paciente guardado: PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:23:10] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:23:10] [ INFO ] [PacienteDaoH2:193] Paciente encontrado: PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:24:10] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:24:10] [ INFO ] [PacienteDaoH2:193] Paciente encontrado: PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:24:10] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Cipoletti Neuquen}
+[2023-06-09 22:24:10] [ WARN ] [PacienteDaoH2:98] Paciente actualizado: PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Cipoletti Neuquen}}
+[2023-06-09 22:24:20] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:24:20] [ INFO ] [PacienteDaoH2:193] Paciente encontrado: PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:24:37] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:24:37] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:24:37] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:24:37] [ INFO ] [PacienteDaoH2:233] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}, PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}]
+[2023-06-09 22:25:00] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:25:00] [ INFO ] [PacienteDaoH2:193] Paciente encontrado: PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:25:00] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Cipoletti Neuquen}
+[2023-06-09 22:25:00] [ WARN ] [PacienteDaoH2:98] Paciente actualizado: PACIENTE {id:4 - Bertolo Flavia Maria - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Cipoletti Neuquen}}
+[2023-06-09 22:25:06] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:25:06] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:25:06] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:25:06] [ INFO ] [PacienteDaoH2:233] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}, PACIENTE {id:4 - Bertolo Flavia Maria - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}]
+[2023-06-09 22:27:55] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:27:55] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:27:55] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:28:02] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:28:02] [ INFO ] [PacienteDaoH2:48] Paciente guardado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:28:14] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:28:14] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:28:36] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:28:36] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:28:36] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Cipoletti Neuquen}
+[2023-06-09 22:28:36] [ ERROR] [PacienteDaoH2:102] Column "DOMICILIO" not found; SQL statement:
+UPDATE PACIENTES SET APELLIDO=?, NOMBRE=?, DNI=?, FECHAINGRESO=?, DOMICILIO=? WHERE ID=? [42122-214]
+[2023-06-09 22:28:55] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:28:55] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:28:55] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:28:55] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}, PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}]
+[2023-06-09 22:29:55] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:29:55] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:29:55] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:30:07] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:30:07] [ INFO ] [PacienteDaoH2:48] Paciente guardado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:30:19] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:30:19] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:30:31] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:30:31] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:30:31] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Cipoletti Neuquen}
+[2023-06-09 22:30:31] [ WARN ] [PacienteDaoH2:99] Paciente actualizado: PACIENTE {id:3 - Bertolo Flavia Maria - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Cipoletti Neuquen}}
+[2023-06-09 22:31:24] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Cipoletti Neuquen}
+[2023-06-09 22:31:24] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia Maria - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Cipoletti Neuquen}}
+[2023-06-09 22:31:24] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Cipoletti Neuquen}
+[2023-06-09 22:31:24] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia Maria - DNI: 33.000.001 - Fecha ingreso: 2023-05-22 - Domicilio: {25 de mayo 1400 Cipoletti Neuquen}}
+[2023-06-09 22:31:24] [ INFO ] [DomicilioDaoH2:127] Se elimino el domicilio con id 4
+[2023-06-09 22:31:24] [ INFO ] [PacienteDaoH2:144] Se elimino el paciente con id 3
+[2023-06-09 22:31:34] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:31:34] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:31:34] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:31:47] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:31:47] [ INFO ] [PacienteDaoH2:48] Paciente guardado: PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:31:51] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:31:51] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:31:51] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:31:51] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}, PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}]
+[2023-06-09 22:41:26] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:41:26] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}
+[2023-06-09 22:41:26] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Estevez Allan - Matricula: 20123}
+[2023-06-09 22:41:47] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:41:47] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}
+[2023-06-09 22:41:47] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-09 22:43:22] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:43:22] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:43:22] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:43:22] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}, PACIENTE {id:4 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}]
+[2023-06-09 22:45:45] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:45:45] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}
+[2023-06-09 22:45:45] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Estevez Allan - Matricula: 20123}
+[2023-06-09 22:45:45] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:45:45] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}
+[2023-06-09 22:45:45] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-09 22:46:06] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:46:06] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:46:06] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}]
+[2023-06-09 22:46:12] [ INFO ] [DomicilioDaoH2:40] Domicilio guardado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:46:12] [ INFO ] [PacienteDaoH2:48] Paciente guardado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:46:15] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:46:15] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:46:15] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:46:15] [ INFO ] [PacienteDaoH2:234] Pacientes encontrados: [PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}, PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}, PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}]
+[2023-06-09 22:46:26] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:46:26] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:46:26] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-09 22:46:32] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-09 22:46:32] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}
+[2023-06-09 22:46:32] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Estevez Allan - Matricula: 20123}
+[2023-06-09 22:46:32] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-09 22:46:32] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}
+[2023-06-09 22:46:32] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-09 22:46:32] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-09 22:46:32] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-09 22:46:32] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-10 01:26:40] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Av. Siempre Viva 742 Springfield Massachusetts}
+[2023-06-10 01:26:40] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:1 - Perez Emiliano - DNI: 32.322.223 - Fecha ingreso: 2023-05-24 - Domicilio: {Av. Siempre Viva 742 Springfield Massachusetts}}
+[2023-06-10 01:26:40] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Estevez Allan - Matricula: 20123}
+[2023-06-10 01:26:40] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {Calle Wallaby 42 Sydney Nueva Gales del Sur}
+[2023-06-10 01:26:40] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:2 - Clemente Octavio - DNI: 12.122.221. - Fecha ingreso: 2023-05-24 - Domicilio: {Calle Wallaby 42 Sydney Nueva Gales del Sur}}
+[2023-06-10 01:26:40] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-10 01:26:40] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-10 01:26:40] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-10 01:26:40] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-10 01:27:10] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-10 01:27:10] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-10 01:27:10] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-10 01:28:03] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 01:28:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}
+[2023-06-10 01:28:25] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}
+[2023-06-10 01:28:35] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}]
+[2023-06-10 01:29:02] [ INFO ] [DomicilioDaoH2:169] Domicilio encontrado: {25 de mayo 1400 Bariloche Rio Negro}
+[2023-06-10 01:29:02] [ INFO ] [PacienteDaoH2:194] Paciente encontrado: PACIENTE {id:3 - Bertolo Flavia - DNI: 33.000.001 - Fecha ingreso: 2023-05-23 - Domicilio: {25 de mayo 1400 Bariloche Rio Negro}}
+[2023-06-10 01:29:02] [ INFO ] [OdontologoDaoH2:168] Odontologo encontrado: ODONTOLOGO {id: null - Porello Analia - Matricula: 30345}
+[2023-06-10 01:30:54] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}]
+[2023-06-10 01:31:07] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}]
+[2023-06-10 01:32:17] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}
+[2023-06-10 01:32:19] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}, ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:33:53] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}, ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:35:02] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}, ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:36:49] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}, ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:36:53] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}, ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:37:11] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}, ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:37:12] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - sebedio itziar - Matricula: 123}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 123}, ODONTOLOGO {id: 5 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:38:28] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 01:43:41] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 01:43:45] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 01:43:46] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 01:44:01] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Namor Alejandro - Matricula: 1990}
+[2023-06-10 01:44:03] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Namor Alejandro - Matricula: 1990}]
+[2023-06-10 01:44:19] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 1987}
+[2023-06-10 01:44:20] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Namor Alejandro - Matricula: 1990}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 1987}]
+[2023-06-10 01:44:28] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Namor Alejandro - Matricula: 1990}, ODONTOLOGO {id: 4 - Sebedio Itziar - Matricula: 1987}]
+[2023-06-10 01:59:49] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 01:59:50] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 01:59:59] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}
+[2023-06-10 02:00:00] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}]
+[2023-06-10 02:02:31] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 02:03:05] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 02:03:09] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 02:03:10] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 02:03:16] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}
+[2023-06-10 02:03:18] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}]
+[2023-06-10 02:03:27] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}]
+[2023-06-10 02:03:28] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}]
+[2023-06-10 02:07:49] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 02:07:51] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 02:07:57] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}
+[2023-06-10 02:07:59] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 1987}]
+[2023-06-10 02:09:58] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}]
+[2023-06-10 02:10:04] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado: ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 123}
+[2023-06-10 02:10:06] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 123}]
+[2023-06-10 02:10:34] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 123}]
+[2023-06-10 02:10:35] [ INFO ] [OdontologoDaoH2:204] Mostrando todos los odontologos[ODONTOLOGO {id: 1 - Estevez Allan - Matricula: 20123}, ODONTOLOGO {id: 2 - Porello Analia - Matricula: 30345}, ODONTOLOGO {id: 3 - Sebedio Itziar - Matricula: 123}]
+[2023-06-18 11:43:08] [ ERROR] [GlobalExceptionHandler:18] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-18 18:06:24] [ ERROR] [GlobalExceptionHandler:18] JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "undefined": not a valid `java.lang.Long` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String "undefined": not a valid `java.lang.Long` value
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 7] (through reference chain: com.backend.entity.Odontologo["id"])
+[2023-06-18 20:35:44] [ ERROR] [GlobalExceptionHandler:18] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-18 20:36:24] [ ERROR] [GlobalExceptionHandler:18] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-18 20:46:35] [ ERROR] [GlobalExceptionHandler:18] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-18 20:46:47] [ ERROR] [GlobalExceptionHandler:18] JSON parse error: Unexpected character ('{' (code 123)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting double-quote to start field name
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 6]
+[2023-06-18 20:47:29] [ ERROR] [GlobalExceptionHandler:18] JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 8, column: 6]
+[2023-06-18 20:47:49] [ ERROR] [GlobalExceptionHandler:18] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 19:01:28] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 19:04:38] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 19:04:45] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 19:49:29] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 20:18:51] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 20:18:54] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 20:18:57] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 20:27:19] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 20:27:26] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 20:27:29] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 20:57:26] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 21:00:24] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 21:00:30] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 21:00:34] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 22:09:21] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 22:22:04] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 22:22:16] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 22:22:22] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 22:23:50] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 22:23:57] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-20 22:24:02] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 18:27:10] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 18:27:39] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 22:10:11] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 22:42:46] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 23:49:44] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 23:50:27] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 23:55:07] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-21 23:58:57] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-22 09:00:47] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-22 09:11:52] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-22 09:14:53] [ ERROR] [GlobalExceptionHandler:17] No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.backend.entity.Paciente$HibernateProxy$oeEgrccL["hibernateLazyInitializer"])
+[2023-06-22 09:20:47] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-22 09:25:12] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-22 09:25:20] [ ERROR] [GlobalExceptionHandler:17] detached entity passed to persist: com.backend.entity.Odontologo; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.backend.entity.Odontologo
+[2023-06-22 09:25:53] [ ERROR] [GlobalExceptionHandler:17] Cannot invoke "com.backend.entity.Paciente.getId()" because the return value of "com.backend.entity.Turno.getPaciente()" is null
+[2023-06-22 09:26:24] [ ERROR] [GlobalExceptionHandler:17] Cannot invoke "com.backend.entity.Paciente.getId()" because the return value of "com.backend.entity.Turno.getPaciente()" is null
+[2023-06-22 09:27:57] [ ERROR] [GlobalExceptionHandler:17] Cannot invoke "com.backend.entity.Paciente.getId()" because the return value of "com.backend.entity.Turno.getPaciente()" is null
+[2023-06-22 09:28:03] [ ERROR] [GlobalExceptionHandler:17] Cannot invoke "com.backend.entity.Paciente.getId()" because the return value of "com.backend.entity.Turno.getPaciente()" is null
+[2023-06-22 09:28:12] [ ERROR] [GlobalExceptionHandler:17] Cannot invoke "com.backend.entity.Paciente.getId()" because the return value of "com.backend.entity.Turno.getPaciente()" is null

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Alta de paciente</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/boostrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/post_paciente.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="/pacientes.html">Listar</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-7" style="background-color:#e6fffa; margin: 80px auto; padding:10px; border-radius:3px">
+      <h2>Agregar paciente</h2>
+      <form id="add_new_paciente">
+        <div class="form-group">
+          <label class="control-label" for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label" for="apellido">Apellido:</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingrese el apellido" required>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="dni">DNI:</label>
+          <input type="text" class="form-control" id="dni" placeholder="Ingrese el DNI"
+                 required>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="fechaIngreso">Fecha ingreso:</label>
+          <input type="date" class="form-control" id="fechaIngreso" placeholder="Ingrese la fecha de ingreso"
+                 required>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="calle">Calle:</label>
+          <input type="text" class="form-control" id="calle" placeholder="Ingrese la calle del domicilio"
+                 required>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="numero">Número de calle:</label>
+          <input type="number" class="form-control" id="numero" placeholder="Ingrese el número de calle"
+                 required>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="localidad">Localidad:</label>
+          <input type="text" class="form-control" id="localidad" placeholder="Ingrese la localidad"
+                 required>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="fechaIngreso">Fecha ingreso:</label>
+          <input type="text" class="form-control" id="provincia" placeholder="Ingrese la provincia"
+                 required>
+        </div>
+
+        <button type="submit" class="btn btn-success" id="btn-add-new-paciente">Registrar</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Alta turno</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/boostrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/post_turno.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="/turnos.html">Listar</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-7" style="background-color:#e6fffa; margin: 80px auto; padding:10px; border-radius:3px">
+      <h2>Agregar turno</h2>
+      <form id="add_new_turno">
+
+        <div class="form-group">
+          <label class="control-label" for="pacienteid">ID Paciente:</label>
+          <input type="number" class="form-control" id="pacienteid" placeholder="Ingrese el ID del paciente" required>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="odontologoid">ID Odontólogo:</label>
+          <input type="number" class="form-control" id="odontologoid" placeholder="Ingrese el ID del odontólogo" required>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label" for="fechahora">Fecha y hora del turno:</label>
+          <input type="datetime-local" class="form-control" id="fechahora" placeholder="Ingrese la fecha y hora del turno"
+                 required>
+        </div>
+        <button type="submit" class="btn btn-success" id="btn-add-new-turno">Registrar</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
